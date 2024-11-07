@@ -57,15 +57,19 @@ body {
     }
   }
 
+  & .password {
+    display: flex;
+    flex-direction: column;
+  }
+
   & .forgot__password {
     font-size: 1rem;
     color: #fff;
-    margin-top: 15px;
+    margin-top: 10px;
 
     &:hover {
       text-decoration: underline;
     }
-
   }
 
 
